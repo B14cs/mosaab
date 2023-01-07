@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("../img/HAS_1164.JPG");
+        }
+        form{
+            background-color: rgba(102, 214, 214,.2);
+           width: 80%;
+           height: auto;
+           border-radius: 20px;
+           cursor: pointer;
+        }
+        form:hover{
+            background-image: url('../img/HAS_1164.JPG');
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 10px 10px 10px  rgba(102, 214, 214,.2);
+          
+        } 
+        div{
+            padding: 5px 20px;
+        }
+        input{
+            border:none;
+            padding: 5px 10px;
+            border-radius: 10px;
+            width: 30%;
+            background-color: #fff;
+            cursor: pointer;
+            /* font-size: larger; */
+        }
+        .fa{
+            padding-right: 10px;
+            font-size: 50px;
+            font-family: sofia;
+
+        }
+        textarea{
+            width: 50%;
+            height: 90%;
+            background-color: #fff;
+            border-radius: 30px;
+            column-count: 400;
+            padding: 40px 40px 40px 0;
+            cursor: pointer;
+           
+            
+        }
+        h2{
+            color:#fff;
+            background-image: url("../img/bic8.jpg");
+            padding: 10px 20px;
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+
+        }
+
+        h2:hover{
+            transform: scale(.7);
+            transition:  all 3s;
+        }
+        textarea:hover{
+            background-color: inherit;
+            transition: all 3s;
+            transform: scale(1);
+            width: 90%;
+            box-shadow: 10px 10px 10px #fff ;
+            font-size: larger;
+            transition: all 3s;
+            text-transform: uppercase;
+            color: #fff;
+
+        }
+    .fa{
+           color:#fff
+        }
+         
+        input:hover{
+            border:none;
+            transform: scale(1);
+            background-color: inherit;
+            /* width: 90%; */
+            font-size: larger;
+            transition: all 3s;
+            text-transform: uppercase;
+            box-shadow: 5px 5px 5px #fff ;
+            color: #fff;
+        
+            /* color: #fff; */
+           
+        }
+        
+    </style>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+    <form action="index.html" method="get">
+        <h2>contact us</h2>
+        <div>
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="first name">
+        </div>
+        <div>
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="last name">
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <input type="email" placeholder="email">
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <input type="number" placeholder="phone">
+        </div>
+        <div>
+            <i class="fa fa-pencil"></i>
+            <textarea placeholder="message"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="send">
+        </div>
+        <div>
+           <a href="index.html"> <input type="button" value="back"></a>
+        </div>
+        
+
+      
+    </form>
+</center>
+</body>
+</html>

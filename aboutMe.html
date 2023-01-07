@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+    <style>
+      .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    background:url('bic8.jpg');
+}
+.layout{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    /* height: 200px; */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .5);
+  
+}
+.container{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    overflow: hidden;
+    color: #Fff;
+    transition: 3s ease-in;
+}
+.container:hover .layout{
+    height: 100%;
+    transition: 4s ease;
+
+}
+ .container:hover{
+    /* transform: rotate(30deg); */
+    border-radius: 20%;
+    transition: 3s;
+}
+    </style>
+   
+</head>
+<body>
+    <div class="cont">
+    
+          <div class="container"> <img src="bic7.jpg" alt="">
+            <div class="layout" >
+               <div class="text"> 
+                بسم الله الرحمن الرحيم<br> 
+                السلام عليكم
+
+
+                <div>
+                  الاسم :مصعب بله محمد جاه الرسول<br>
+                  <!-- <br> -->
+                  الكليه:العلوم الرياضيه والحاسوب
+                  <br>
+                  القسم : الاحصاءوعلوم الحاسوب
+                  <br>
+                  الرقم الجامعي : 40105
+                </div>
+               </div>
+            </div>
+          </div>
+            
+    
+    </div>
+  
+</body>
+</html>
